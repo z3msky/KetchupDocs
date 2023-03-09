@@ -1,0 +1,5 @@
+<map id="DrawDeregistrationCommand" name="DrawDeregistrationCommand">
+<area shape="rect" id="node1" title=" " alt="" coords="5,461,248,715"/>
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title=" " alt="" coords="7,219,247,413"/>
+<area shape="rect" id="node3" href="$class_command.html" title=" " alt="" coords="31,5,223,171"/>
+</map>

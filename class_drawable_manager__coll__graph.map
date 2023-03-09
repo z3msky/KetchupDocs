@@ -1,0 +1,9 @@
+<map id="DrawableManager" name="DrawableManager">
+<area shape="rect" id="node1" title=" " alt="" coords="5,955,207,1193"/>
+<area shape="rect" id="node2" title=" " alt="" coords="31,727,181,804"/>
+<area shape="rect" id="node3" href="$class_drawable.html" title=" " alt="" coords="232,220,423,576"/>
+<area shape="rect" id="node4" href="$class_draw_registration_command.html" title=" " alt="" coords="473,639,705,892"/>
+<area shape="rect" id="node7" href="$class_draw_deregistration_command.html" title=" " alt="" coords="206,639,449,892"/>
+<area shape="rect" id="node5" href="$class_scene_registration_command.html" title=" " alt="" coords="487,301,727,495"/>
+<area shape="rect" id="node6" href="$class_command.html" title=" " alt="" coords="511,5,703,171"/>
+</map>

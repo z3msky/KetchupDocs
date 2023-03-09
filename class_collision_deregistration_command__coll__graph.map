@@ -1,0 +1,9 @@
+<map id="CollisionDeregistrationCommand" name="CollisionDeregistrationCommand">
+<area shape="rect" id="node1" title=" " alt="" coords="121,596,383,849"/>
+<area shape="rect" id="node4" href="$class_collidable.html" title=" " alt="" coords="133,941,347,1429"/>
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title=" " alt="" coords="5,271,245,466"/>
+<area shape="rect" id="node5" href="$class_collision_registration_command.html" title=" " alt="" coords="15,1492,267,1745"/>
+<area shape="rect" id="node3" href="$class_command.html" title=" " alt="" coords="29,5,221,171"/>
+<area shape="rect" id="node6" href="$class_b_sphere.html" title=" " alt="" coords="407,567,587,879"/>
+<area shape="rect" id="node7" href="$class_collision_volume.html" title=" " alt="" coords="402,220,593,517"/>
+</map>

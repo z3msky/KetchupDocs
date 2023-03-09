@@ -1,0 +1,11 @@
+<map id="Visualizer" name="Visualizer">
+<area shape="rect" id="node1" title=" " alt="" coords="127,1561,330,1917"/>
+<area shape="rect" id="node2" title=" " alt="" coords="204,975,419,1052"/>
+<area shape="rect" id="node3" href="$class_visualizer_command.html" title=" " alt="" coords="232,455,391,561"/>
+<area shape="rect" id="node7" href="$class_show_b_sphere_command.html" title=" " alt="" coords="23,727,239,951"/>
+<area shape="rect" id="node4" href="$class_command.html" title=" " alt="" coords="221,71,413,237"/>
+<area shape="rect" id="node5" href="$class_visualizer_command_factory.html" title=" " alt="" coords="21,1231,271,1499"/>
+<area shape="rect" id="node6" title=" " alt="" coords="20,1076,259,1153"/>
+<area shape="rect" id="node8" href="$class_b_sphere.html" title=" " alt="" coords="17,352,197,664"/>
+<area shape="rect" id="node9" href="$class_collision_volume.html" title=" " alt="" coords="5,5,196,303"/>
+</map>

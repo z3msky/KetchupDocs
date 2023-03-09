@@ -1,0 +1,15 @@
+<map id="InputableManager" name="InputableManager">
+<area shape="rect" id="node1" title=" " alt="" coords="5,2820,200,3059"/>
+<area shape="rect" id="node2" title=" " alt="" coords="33,2665,173,2757"/>
+<area shape="rect" id="node3" href="$class_input_key.html" title=" " alt="" coords="103,233,307,531"/>
+<area shape="rect" id="node5" href="$class_key_listener.html" title=" " alt="" coords="119,2320,334,2603"/>
+<area shape="rect" id="node10" href="$class_input_registration_command.html" title=" " alt="" coords="313,593,543,861"/>
+<area shape="rect" id="node13" href="$class_input_deregistration_command.html" title=" " alt="" coords="180,1975,423,2243"/>
+<area shape="rect" id="node4" href="$union_input_key_1_1_key_data.html" title=" " alt="" coords="123,42,287,134"/>
+<area shape="rect" id="node6" title=" " alt="" coords="447,2070,598,2147"/>
+<area shape="rect" id="node7" href="$class_inputable.html" title=" " alt="" coords="340,1263,551,1912"/>
+<area shape="rect" id="node8" title=" " alt="" coords="333,1108,504,1200"/>
+<area shape="rect" id="node9" href="$struct_inputable_1_1_registration_data.html" title=" " alt="" coords="325,924,504,1045"/>
+<area shape="rect" id="node11" href="$class_scene_registration_command.html" title=" " alt="" coords="403,285,643,479"/>
+<area shape="rect" id="node12" href="$class_command.html" title=" " alt="" coords="427,5,619,171"/>
+</map>
