@@ -85,6 +85,7 @@ var dir_9ebd623833e29814d20e7bc70a4a9ccb =
     [ "KSprite.cpp", "_k_sprite_8cpp.html", null ],
     [ "KSprite.h", "_k_sprite_8h.html", "_k_sprite_8h" ],
     [ "main.cpp", "main_8cpp.html", "main_8cpp" ],
+    [ "MainPage.h", "_main_page_8h.html", null ],
     [ "ModelManager.cpp", "_model_manager_8cpp.html", null ],
     [ "ModelManager.h", "_model_manager_8h.html", "_model_manager_8h" ],
     [ "ModelManagerAttorney.h", "_model_manager_attorney_8h.html", "_model_manager_attorney_8h" ],
