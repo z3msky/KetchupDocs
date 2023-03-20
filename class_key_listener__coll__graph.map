@@ -1,0 +1,13 @@
+<map id="KeyListener" name="KeyListener">
+<area shape="rect" id="node1" title=" " alt="" coords="323,2320,538,2603"/>
+<area shape="rect" id="node2" href="$class_input_key.html" title=" " alt="" coords="339,233,543,531"/>
+<area shape="rect" id="node8" href="$class_input_registration_command.html" title=" " alt="" coords="154,593,385,861"/>
+<area shape="rect" id="node11" href="$class_input_deregistration_command.html" title=" " alt="" coords="5,1975,248,2243"/>
+<area shape="rect" id="node3" href="$union_input_key_1_1_key_data.html" title=" " alt="" coords="359,42,523,134"/>
+<area shape="rect" id="node4" title=" " alt="" coords="273,2070,423,2147"/>
+<area shape="rect" id="node5" href="$class_inputable.html" title=" " alt="" coords="181,1263,392,1912"/>
+<area shape="rect" id="node6" title=" " alt="" coords="169,1108,340,1200"/>
+<area shape="rect" id="node7" href="$struct_inputable_1_1_registration_data.html" title=" " alt="" coords="161,924,340,1045"/>
+<area shape="rect" id="node9" href="$class_scene_registration_command.html" title=" " alt="" coords="19,285,259,479"/>
+<area shape="rect" id="node10" href="$class_command.html" title=" " alt="" coords="43,5,235,171"/>
+</map>

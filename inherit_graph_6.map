@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_collidable.html" title=" " alt="" coords="6,5,85,31"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title=" " alt="" coords="133,80,228,105"/>
+<area shape="rect" id="node3" href="$class_screen_log.html" title=" " alt="" coords="276,80,360,105"/>
+<area shape="rect" id="node4" href="$class_drawable.html" title=" " alt="" coords="8,55,83,80"/>
+<area shape="rect" id="node5" href="$class_inputable.html" title=" " alt="" coords="8,104,83,129"/>
+<area shape="rect" id="node6" href="$class_updatable.html" title=" " alt="" coords="5,153,85,179"/>
+</map>
