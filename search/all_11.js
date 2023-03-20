@@ -6,7 +6,7 @@ var searchData=
   ['testforfreezekeys_3',['TestForFreezeKeys',['../class_freeze_time.html#afa13f596372f0ba4a01492c539dcab51',1,'FreezeTime']]],
   ['testkey_4',['TestKey',['../class_key_listener.html#a1c7ce51e898c0aa4e44132aa0beb1f15',1,'KeyListener']]],
   ['textdisplay_5',['TextDisplay',['../class_screen_log_attorney_1_1_text_display.html',1,'ScreenLogAttorney']]],
-  ['texturemanager_6',['TextureManager',['../class_texture_manager.html',1,'TextureManager'],['../class_texture_manager.html#aca4613cdc54d8c39aa1de41dc26c7fec',1,'TextureManager::TextureManager()=default'],['../class_texture_manager.html#ae0a812052ff90565e3a0e3bcfc766240',1,'TextureManager::TextureManager(const TextureManager &amp;)=delete']]],
+  ['texturemanager_6',['TextureManager',['../class_texture_manager.html',1,'TextureManager'],['../class_texture_manager.html#ae0a812052ff90565e3a0e3bcfc766240',1,'TextureManager::TextureManager(const TextureManager &amp;)=delete'],['../class_texture_manager.html#aca4613cdc54d8c39aa1de41dc26c7fec',1,'TextureManager::TextureManager()=default']]],
   ['texturemanager_2ecpp_7',['TextureManager.cpp',['../_texture_manager_8cpp.html',1,'']]],
   ['texturemanager_2eh_8',['TextureManager.h',['../_texture_manager_8h.html',1,'']]],
   ['texturemanagerattorney_9',['TextureManagerAttorney',['../class_texture_manager_attorney.html',1,'TextureManagerAttorney'],['../class_texture_manager.html#aa8b9bb729fef86d58e00f6670e40efd2',1,'TextureManager::TextureManagerAttorney()']]],
@@ -15,10 +15,10 @@ var searchData=
   ['time_12',['Time',['../class_ketchup_attorney_1_1_time.html',1,'KetchupAttorney::Time'],['../class_time_manager_attorney_1_1_time.html',1,'TimeManagerAttorney::Time']]],
   ['timeline_13',['Timeline',['../class_alarm_manager.html#a68bba81286c4ebd2be339a85e7cb4464',1,'AlarmManager']]],
   ['timelineref_14',['TimelineRef',['../class_alarm_manager.html#aab1e5a9461a61d75df59279e48dcc0d3',1,'AlarmManager']]],
-  ['timemanager_15',['TimeManager',['../class_time_manager.html',1,'TimeManager'],['../class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6',1,'TimeManager::TimeManager()'],['../class_time_manager.html#a10508dcd4da65973c3c341adfe83cb8e',1,'TimeManager::TimeManager(const TimeManager &amp;)=delete']]],
+  ['timemanager_15',['TimeManager',['../class_time_manager.html',1,'TimeManager'],['../class_time_manager.html#a10508dcd4da65973c3c341adfe83cb8e',1,'TimeManager::TimeManager(const TimeManager &amp;)=delete'],['../class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6',1,'TimeManager::TimeManager()']]],
   ['timemanager_2ecpp_16',['TimeManager.cpp',['../_time_manager_8cpp.html',1,'']]],
   ['timemanager_2eh_17',['TimeManager.h',['../_time_manager_8h.html',1,'']]],
-  ['timemanagerattorney_18',['TimeManagerAttorney',['../class_time_manager_attorney.html',1,'TimeManagerAttorney'],['../class_time_manager.html#ae1beb2ce31de4e59492462dd5030436c',1,'TimeManager::TimeManagerAttorney()']]],
+  ['timemanagerattorney_18',['TimeManagerAttorney',['../class_time_manager.html#ae1beb2ce31de4e59492462dd5030436c',1,'TimeManager::TimeManagerAttorney()'],['../class_time_manager_attorney.html',1,'TimeManagerAttorney']]],
   ['timemanagerattorney_2eh_19',['TimeManagerAttorney.h',['../_time_manager_attorney_8h.html',1,'']]],
   ['tomato_20',['Tomato',['../namespace_colors.html#a78847e2acbff5d18e5961cc566c20dfa',1,'Colors']]],
   ['totalfrozentime_21',['totalFrozenTime',['../class_freeze_time.html#a179c77d4fea4694b21f92603890b5b56',1,'FreezeTime']]],
@@ -35,5 +35,7 @@ var searchData=
   ['triggersceneentry_32',['TriggerSceneEntry',['../class_game_object_attorney_1_1_registration.html#a0135db4a89e1b41740c336606e0cbbf2',1,'GameObjectAttorney::Registration']]],
   ['triggersceneexit_33',['TriggerSceneExit',['../class_game_object_attorney_1_1_registration.html#a19e7fd9e44ed8a119d6ee1c35d4be021',1,'GameObjectAttorney::Registration']]],
   ['turquoise_34',['Turquoise',['../namespace_colors.html#ae0e6fadf5739b35c72706d9255f316f1',1,'Colors']]],
-  ['typeid_35',['TypeID',['../class_collidable_attorney_1_1_type_i_d.html',1,'CollidableAttorney']]]
+  ['tut_5fload_2eh_35',['tut_load.h',['../tut__load_8h.html',1,'']]],
+  ['tut_5fmain_2eh_36',['tut_main.h',['../tut__main_8h.html',1,'']]],
+  ['typeid_37',['TypeID',['../class_collidable_attorney_1_1_type_i_d.html',1,'CollidableAttorney']]]
 ];

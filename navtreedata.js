@@ -26,6 +26,9 @@ var NAVTREE =
 [
   [ "Ketchup Engine", "index.html", [
     [ "Welcome to Ketchup Engine", "index.html", null ],
+    [ "Getting Started", "getting_started.html", null ],
+    [ "Getting Started - Loading Assets", "tut_load.html", null ],
+    [ "Getting Started - Setting up main", "tut_main.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -60,12 +63,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_alarm_8cpp.html",
-"_input_registration_command_8h_source.html",
+"_input_registration_command_8cpp.html",
 "class_collidable_attorney_1_1_dereg_ref.html#a30a1c0c83a00025c6377e0b605a71dc2",
 "class_h_u_d.html#a1e1140a40e4bf72a45acf9f7b2119323",
 "class_scene.html#abe04ae93a28174a72f0066fc32cd2eb0",
 "class_texture_manager_attorney.html",
-"namespace_colors.html#a238a4be8ac4981862b0b2ca46cc80189"
+"namespace_colors.html#a22f25aadaf837ed4733f28a9a528fb58"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
