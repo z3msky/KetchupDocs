@@ -27,6 +27,8 @@ var annotated_dup =
     [ "DrawableManager", "class_drawable_manager.html", "class_drawable_manager" ],
     [ "DrawDeregistrationCommand", "class_draw_deregistration_command.html", "class_draw_deregistration_command" ],
     [ "DrawRegistrationCommand", "class_draw_registration_command.html", "class_draw_registration_command" ],
+    [ "EngineSettings", "class_engine_settings.html", "class_engine_settings" ],
+    [ "EngineSettingsAttorney", "class_engine_settings_attorney.html", "class_engine_settings_attorney" ],
     [ "FontManager", "class_font_manager.html", "class_font_manager" ],
     [ "FontManagerAttorney", "class_font_manager_attorney.html", "class_font_manager_attorney" ],
     [ "FreezeTime", "class_freeze_time.html", "class_freeze_time" ],

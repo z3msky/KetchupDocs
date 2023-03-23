@@ -1,24 +1,4 @@
 var searchData=
 [
-  ['scene_0',['Scene',['../class_scene.html',1,'']]],
-  ['sceneattorney_1',['SceneAttorney',['../class_scene_attorney.html',1,'']]],
-  ['scenemanager_2',['SceneManager',['../class_scene_manager.html',1,'']]],
-  ['scenemanagerattorney_3',['SceneManagerAttorney',['../class_scene_manager_attorney.html',1,'']]],
-  ['sceneregistrationcommand_4',['SceneRegistrationCommand',['../class_scene_registration_command.html',1,'']]],
-  ['sceneupdatestrategy_5',['SceneUpdateStrategy',['../class_scene_update_strategy.html',1,'']]],
-  ['screenlog_6',['ScreenLog',['../class_screen_log.html',1,'']]],
-  ['screenlogattorney_7',['ScreenLogAttorney',['../class_screen_log_attorney.html',1,'']]],
-  ['screenscale_8',['ScreenScale',['../class_screen_scale.html',1,'']]],
-  ['screenscaleattorney_9',['ScreenScaleAttorney',['../class_screen_scale_attorney.html',1,'']]],
-  ['shadermanager_10',['ShaderManager',['../class_shader_manager.html',1,'']]],
-  ['shadermanagerattorney_11',['ShaderManagerAttorney',['../class_shader_manager_attorney.html',1,'']]],
-  ['showbsphere_12',['ShowBSphere',['../class_visualizer_attorney_1_1_show_b_sphere.html',1,'VisualizerAttorney']]],
-  ['showbspherecommand_13',['ShowBSphereCommand',['../class_show_b_sphere_command.html',1,'']]],
-  ['showpoint_14',['ShowPoint',['../class_visualizer_attorney_1_1_show_point.html',1,'VisualizerAttorney']]],
-  ['showpointcommand_15',['ShowPointCommand',['../class_show_point_command.html',1,'']]],
-  ['skybox_16',['Skybox',['../class_skybox.html',1,'']]],
-  ['spritefont_17',['SpriteFont',['../class_sprite_font.html',1,'']]],
-  ['spritestring_18',['SpriteString',['../class_sprite_string.html',1,'']]],
-  ['swap_19',['Swap',['../class_scene_manager_attorney_1_1_swap.html',1,'SceneManagerAttorney']]],
-  ['swapsceneupdate_20',['SwapSceneUpdate',['../class_swap_scene_update.html',1,'']]]
+  ['nullscene_0',['NullScene',['../class_null_scene.html',1,'']]]
 ];

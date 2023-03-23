@@ -90,10 +90,10 @@ $(document).ready(function(){initNavTree('class_ketchup.html',''); initResizable
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_ketchup-members.html">List of all members</a>  </div>
@@ -107,7 +107,7 @@ Inheritance diagram for Ketchup:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ketchup__inherit__graph.png" border="0" usemap="#a_ketchup_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_ketchup_inherit__map" id="a_ketchup_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,131,217,428"/>
+<area shape="rect" title=" " alt="" coords="5,131,217,560"/>
 <area shape="rect" title=" " alt="" coords="80,5,143,83"/>
 </map>
 </div>
@@ -116,27 +116,19 @@ Collaboration diagram for Ketchup:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ketchup__coll__graph.png" border="0" usemap="#a_ketchup_coll__map" alt="Collaboration graph"/></div>
 <map name="a_ketchup_coll__map" id="a_ketchup_coll__map">
-<area shape="rect" title=" " alt="" coords="5,132,217,415"/>
+<area shape="rect" title=" " alt="" coords="5,132,217,517"/>
+<area shape="rect" href="class_engine_settings.html" title=" " alt="" coords="16,580,207,965"/>
 <area shape="rect" title=" " alt="" coords="80,5,143,83"/>
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a873dc4c86133f2edf636d4f418c91157"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#a873dc4c86133f2edf636d4f418c91157">LoadResources</a> ()</td></tr>
-<tr class="memdesc:a873dc4c86133f2edf636d4f418c91157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads resources before game runs.  <br /></td></tr>
-<tr class="separator:a873dc4c86133f2edf636d4f418c91157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2170b0e7ce351f0f71986fa15b515038"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#a2170b0e7ce351f0f71986fa15b515038">InitGame</a> ()</td></tr>
-<tr class="memdesc:a2170b0e7ce351f0f71986fa15b515038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the game.  <br /></td></tr>
-<tr class="separator:a2170b0e7ce351f0f71986fa15b515038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b424a5fa87792082649f212518ad391"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#a7b424a5fa87792082649f212518ad391">EndGame</a> ()</td></tr>
-<tr class="memdesc:a7b424a5fa87792082649f212518ad391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ends the game.  <br /></td></tr>
-<tr class="separator:a7b424a5fa87792082649f212518ad391"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aac566b518ee3d90af6c913787fd75af3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ketchup.html">Ketchup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#aac566b518ee3d90af6c913787fd75af3">Instance</a> ()</td></tr>
 <tr class="separator:aac566b518ee3d90af6c913787fd75af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a26ffd1e4c995666cc714613ecaa04"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#ae5a26ffd1e4c995666cc714613ecaa04">AttachSettings</a> (<a class="el" href="class_engine_settings.html">EngineSettings</a> *settings)</td></tr>
+<tr class="memdesc:ae5a26ffd1e4c995666cc714613ecaa04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches user-defined <a class="el" href="class_engine_settings.html">EngineSettings</a> class to the game. To be set in main before calling <a class="el" href="class_ketchup.html#ab270c51fe3efc28829f28afcf2bed1f7" title="Runs the Ketchup Engine.">Run()</a>.  <br /></td></tr>
+<tr class="separator:ae5a26ffd1e4c995666cc714613ecaa04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab270c51fe3efc28829f28afcf2bed1f7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#ab270c51fe3efc28829f28afcf2bed1f7">Run</a> ()</td></tr>
 <tr class="memdesc:ab270c51fe3efc28829f28afcf2bed1f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the <a class="el" href="class_ketchup.html">Ketchup</a> Engine.  <br /></td></tr>
 <tr class="separator:ab270c51fe3efc28829f28afcf2bed1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,6 +143,8 @@ Static Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a2d37f7e4393b2eb70d9802acb30b7931"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#a2d37f7e4393b2eb70d9802acb30b7931">Ketchup</a> ()</td></tr>
 <tr class="separator:a2d37f7e4393b2eb70d9802acb30b7931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1cfca0f378a9ebebb01d12d9cd55eed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#ab1cfca0f378a9ebebb01d12d9cd55eed">~Ketchup</a> ()</td></tr>
+<tr class="separator:ab1cfca0f378a9ebebb01d12d9cd55eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37baf095c0f772f3fdce653ff008ab4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#a37baf095c0f772f3fdce653ff008ab4f">Initialize</a> ()</td></tr>
 <tr class="separator:a37baf095c0f772f3fdce653ff008ab4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a342860e2c93400c05f842e8fa9f4bd0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#a342860e2c93400c05f842e8fa9f4bd0c">LoadContent</a> ()</td></tr>
@@ -161,6 +155,12 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a411f196ca11deca868f86b71c0ffef05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbf19f9871cf47347c0b88dd25edb570"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#abbf19f9871cf47347c0b88dd25edb570">UnLoadContent</a> ()</td></tr>
 <tr class="separator:abbf19f9871cf47347c0b88dd25edb570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af073e7708d1e97cf577a46e665caea4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#af073e7708d1e97cf577a46e665caea4a">SetWindowName</a> (const char *pWindowName)</td></tr>
+<tr class="separator:af073e7708d1e97cf577a46e665caea4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dbe29a3bffb22f820f300726281a59d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#a2dbe29a3bffb22f820f300726281a59d">SetWidthHeight</a> (const int width, const int height)</td></tr>
+<tr class="separator:a2dbe29a3bffb22f820f300726281a59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c0db26348b252132dd26e2b8a227bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#ad8c0db26348b252132dd26e2b8a227bf">SetVsync</a> (bool enable)</td></tr>
+<tr class="separator:ad8c0db26348b252132dd26e2b8a227bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -168,6 +168,11 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:a712f4a9aea7b4f5b1374984f1fa20a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfb914b3f59b99048ef8aa656013a090"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#abfb914b3f59b99048ef8aa656013a090">GetTimeInSeconds</a> ()</td></tr>
 <tr class="separator:abfb914b3f59b99048ef8aa656013a090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a964c08ce154246b7d80dbf524fe12b4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine_settings.html">EngineSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ketchup.html#a964c08ce154246b7d80dbf524fe12b4b">p_settings</a></td></tr>
+<tr class="separator:a964c08ce154246b7d80dbf524fe12b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -198,7 +203,32 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1cfca0f378a9ebebb01d12d9cd55eed" name="ab1cfca0f378a9ebebb01d12d9cd55eed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1cfca0f378a9ebebb01d12d9cd55eed">&#9670;&#160;</a></span>~Ketchup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ketchup::~Ketchup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -206,6 +236,41 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae5a26ffd1e4c995666cc714613ecaa04" name="ae5a26ffd1e4c995666cc714613ecaa04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5a26ffd1e4c995666cc714613ecaa04">&#9670;&#160;</a></span>AttachSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ketchup::AttachSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_engine_settings.html">EngineSettings</a> *&#160;</td>
+          <td class="paramname"><em>settings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attaches user-defined <a class="el" href="class_engine_settings.html">EngineSettings</a> class to the game. To be set in main before calling <a class="el" href="class_ketchup.html#ab270c51fe3efc28829f28afcf2bed1f7" title="Runs the Ketchup Engine.">Run()</a>. </p>
+<p>Haru, 3/22/2023. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td>A pointer to a class instance inheriting from <a class="el" href="class_engine_settings.html">EngineSettings</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a411f196ca11deca868f86b71c0ffef05" name="a411f196ca11deca868f86b71c0ffef05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a411f196ca11deca868f86b71c0ffef05">&#9670;&#160;</a></span>Draw()</h2>
 
@@ -228,34 +293,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7b424a5fa87792082649f212518ad391" name="a7b424a5fa87792082649f212518ad391"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b424a5fa87792082649f212518ad391">&#9670;&#160;</a></span>EndGame()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Ketchup::EndGame </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Ends the game. </p>
-<p>To be overridden by user. Haru, 3/1/2023. </p>
 
 </div>
 </div>
@@ -367,34 +404,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a2170b0e7ce351f0f71986fa15b515038" name="a2170b0e7ce351f0f71986fa15b515038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2170b0e7ce351f0f71986fa15b515038">&#9670;&#160;</a></span>InitGame()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Ketchup::InitGame </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initializes the game. </p>
-<p>To be overridden by user. Haru, 3/1/2023. </p>
-
-</div>
-</div>
 <a id="a37baf095c0f772f3fdce653ff008ab4f" name="a37baf095c0f772f3fdce653ff008ab4f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37baf095c0f772f3fdce653ff008ab4f">&#9670;&#160;</a></span>Initialize()</h2>
 
@@ -470,34 +479,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a873dc4c86133f2edf636d4f418c91157" name="a873dc4c86133f2edf636d4f418c91157"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a873dc4c86133f2edf636d4f418c91157">&#9670;&#160;</a></span>LoadResources()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Ketchup::LoadResources </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Loads resources before game runs. </p>
-<p>To be overridden by user. Haru, 3/1/2023. </p>
-
-</div>
-</div>
 <a id="ab270c51fe3efc28829f28afcf2bed1f7" name="ab270c51fe3efc28829f28afcf2bed1f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab270c51fe3efc28829f28afcf2bed1f7">&#9670;&#160;</a></span>Run()</h2>
 
@@ -523,6 +504,94 @@ Friends</h2></td></tr>
 
 <p>Runs the <a class="el" href="class_ketchup.html">Ketchup</a> Engine. </p>
 <p>To be called in main </p>
+
+</div>
+</div>
+<a id="ad8c0db26348b252132dd26e2b8a227bf" name="ad8c0db26348b252132dd26e2b8a227bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c0db26348b252132dd26e2b8a227bf">&#9670;&#160;</a></span>SetVsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ketchup::SetVsync </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2dbe29a3bffb22f820f300726281a59d" name="a2dbe29a3bffb22f820f300726281a59d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dbe29a3bffb22f820f300726281a59d">&#9670;&#160;</a></span>SetWidthHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ketchup::SetWidthHeight </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af073e7708d1e97cf577a46e665caea4a" name="af073e7708d1e97cf577a46e665caea4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af073e7708d1e97cf577a46e665caea4a">&#9670;&#160;</a></span>SetWindowName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ketchup::SetWindowName </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>pWindowName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -616,6 +685,28 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a964c08ce154246b7d80dbf524fe12b4b" name="a964c08ce154246b7d80dbf524fe12b4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a964c08ce154246b7d80dbf524fe12b4b">&#9670;&#160;</a></span>p_settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_engine_settings.html">EngineSettings</a>* Ketchup::p_settings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
