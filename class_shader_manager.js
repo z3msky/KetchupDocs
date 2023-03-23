@@ -12,6 +12,7 @@ var class_shader_manager =
     [ "operator=", "class_shader_manager.html#a689b404424a09269cfb39e8c931bfd18", null ],
     [ "privLoad", "class_shader_manager.html#ae7b89e924e6dfe3ada023387ce35f4b3", null ],
     [ "ShaderManagerAttorney", "class_shader_manager.html#a97022f78230dba6423365444e6c6f63d", null ],
+    [ "colorConstantKey", "class_shader_manager.html#ab0faa31ef1fa00cec0c69c1fe9c26fe4", null ],
     [ "p_instance", "class_shader_manager.html#a979cb8ed5df3900851ebdc7d153a3b37", null ],
     [ "shaders", "class_shader_manager.html#a5f218dd6a766d5c99f34819306fbf2da", null ],
     [ "spriteKey", "class_shader_manager.html#a36dfa074a904e826f239d3bdb4b88b6d", null ]

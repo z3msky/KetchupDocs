@@ -64,9 +64,9 @@ var NAVTREEINDEX =
 "_input_deregistration_command_8h.html",
 "class_collidable_attorney_1_1_colliders.html",
 "class_game_object.html#ab44cac8adceef42350caaa6ccb9663be",
-"class_null_scene.html#a4aab66ec2f9a3e3dbfbbd651d29cde87",
-"class_sprite_string.html#a6e1e3072a114354d711bf8b83d334e32",
-"functions_u.html"
+"class_model_manager_attorney_1_1_memory.html#a9a4426eeba2d755e1f1c266817e13da8",
+"class_sprite_string.html#a4e1eb2d756b33acb9724ce7b1df4cce0",
+"functions_s.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

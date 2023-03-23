@@ -16,5 +16,7 @@ var class_model_manager =
     [ "ModelManagerAttorney", "class_model_manager.html#a30d0523536edf4e71d8a833bcbed7e03", null ],
     [ "models", "class_model_manager.html#adc74553098a0b8db364f9a8847938345", null ],
     [ "p_instance", "class_model_manager.html#a2c08d445d320ed3c931c4ca5e3f92c23", null ],
-    [ "spriteKey", "class_model_manager.html#a356d99b1ceed2be250d9ce563261b5b0", null ]
+    [ "spriteKey", "class_model_manager.html#a356d99b1ceed2be250d9ce563261b5b0", null ],
+    [ "unitBoxKey", "class_model_manager.html#af799cdd77bda156a36be028d93d0ee0d", null ],
+    [ "unitSphereKey", "class_model_manager.html#a5c06b5ff092f8f279a530868d972c8c9", null ]
 ];

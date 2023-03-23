@@ -92,9 +92,9 @@ $(document).ready(function(){initNavTree('tut_scene.html',''); initResizable(); 
   <div class="headertitle"><div class="title">Getting Started - Creating a <a class="el" href="class_scene.html">Scene</a> </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md9"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md15"></a>
 Creating a Scene</h1>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Header</h2>
 <p>To set up a scene for our game, we'll have to create a class for it which inherits from <a class="el" href="class_scene.html">Scene</a>. <a class="el" href="class_scene.html">Scene</a> has the methods <a class="el" href="class_scene.html#afa4f07e2ccd907e9686d51ee0a670619" title="Initializes this scene. Called by the SceneManager when setting up the Scene. To be overridden by the...">Scene::Init()</a> and <a class="el" href="class_scene.html#adbdd60acb6fcf28614d6b96262cb15a5" title="Ends this scene. Called by the SceneManager when cleaning up the Scene. To be overridden by the user.">Scene::End()</a> for us to override. These methods are called by the <a class="el" href="class_scene_manager.html">SceneManager</a> to set up and clean up our scene. </p><pre class="fragment">#include "Scene.h"
 
@@ -113,31 +113,32 @@ private:
     void End() override;
 
 };
-</pre> <h2><a class="anchor" id="autotoc_md11"></a>
+</pre> <h2><a class="anchor" id="autotoc_md17"></a>
 Init()</h2>
 <p><a class="el" href="class_scene.html#adbdd60acb6fcf28614d6b96262cb15a5" title="Ends this scene. Called by the SceneManager when cleaning up the Scene. To be overridden by the user.">Scene::End()</a> is where we will do any setup and registration of GameObjects for the scene, but for now we can leave it mostly empty. We'll just set up our camera, though there's nothing for us to render yet. </p><pre class="fragment">void DemoScene::Init()
 {
     SceneManager::GetCurrentScene()-&gt;GetMainCam()-&gt;setOrientAndPosition(Vect(0, 1, 0), Vect(), Vect(0, 100, 100));
 }
-</pre> <h2><a class="anchor" id="autotoc_md12"></a>
+</pre> <h2><a class="anchor" id="autotoc_md18"></a>
 End()</h2>
 <p><a class="el" href="class_scene.html#adbdd60acb6fcf28614d6b96262cb15a5" title="Ends this scene. Called by the SceneManager when cleaning up the Scene. To be overridden by the user.">Scene::End()</a> is where we will do any cleanup and deregistration of GameObjects for the scene, but for now we can leave it empty.</p>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md19"></a>
 Setting a Start Scene</h2>
 <p>We can also go back to our <a class="el" href="tut_load.html">LoadResources</a> method and set the start scene to be our scene. Note that <a class="el" href="class_scene_manager.html">SceneManager</a> handles memory cleanup for any scene that it manages. </p><pre class="fragment">#include "DemoScene.h"
 #include "SceneManager.h"
 
 void GameSettings::LoadResources()
 {
-    @ref tut_load "[...]"
+    [...]
 
     SceneManager::SetStartScene(new DemoScene());
 }
-</pre> <h2><a class="anchor" id="autotoc_md14"></a>
+</pre><p> See <a class="el" href="tut_load.html">Loading Assets</a>.</p>
+<h2><a class="anchor" id="autotoc_md20"></a>
 A Blank Window!</h2>
 <p>Now, if we start the game, we'll have a completely empty scene!</p>
 <ul>
-<li>next: Game Objects and Entities (Updatables and Drawables)</li>
+<li>next: Updatables</li>
 <li><a class="el" href="getting_started.html">Return to Getting Started</a> </li>
 </ul>
 </div></div><!-- contents -->

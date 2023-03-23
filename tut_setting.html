@@ -92,17 +92,17 @@ $(document).ready(function(){initNavTree('tut_setting.html',''); initResizable()
   <div class="headertitle"><div class="title">Getting Started - Creating an <a class="el" href="class_engine_settings.html">EngineSettings</a> Class </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md15"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md21"></a>
 Creating an EngineSettings Class</h1>
 <p>In order to set up our <a class="el" href="class_ketchup.html">Ketchup</a> environment, we will have to create a class that inherits from <a class="el" href="class_engine_settings.html">EngineSettings</a>. We will override the <a class="el" href="class_engine_settings.html#af2ea6121fc2330e2de9ba7ebac02f81a" title="Initializes the game. Called automatically by Ketchup when Run() is called. To be overridden by user.">EngineSettings::InitGame()</a>, <a class="el" href="class_engine_settings.html#a942f2cab9514042fe31bac71aa5fda58" title="Cleans up the game after running. Called automatically by Ketchup at the end of the game....">EngineSettings::EndGame()</a>, and <a class="el" href="class_engine_settings.html#ad087e863ab33f251ce8294d69b03e591" title="Loads the resources necessary for the game. Called automatically by Ketchup when Run() is called,...">EngineSettings::LoadResources()</a> methods to define our preferred behavior when setting up and ending the game. </p><pre class="fragment">#include "EngineSettings.h"
 
-class GameSettings : public EngineSettings
+class TutorialGameSettings : public EngineSettings
 {
 public:
-    GameSettings() = default;
-    GameSettings(const GameSettings&amp;) = delete;
-    GameSettings&amp; operator = (const GameSettings&amp;) = delete;
-    ~GameSettings() = default;
+    TutorialGameSettings() = default;
+    TutorialGameSettings(const TutorialGameSettings&amp;) = delete;
+    TutorialGameSettings&amp; operator = (const TutorialGameSettings&amp;) = delete;
+    ~TutorialGameSettings() = default;
 
 private:
 
@@ -111,24 +111,24 @@ private:
     void EndGame() override;
 
 };
-</pre> <h2><a class="anchor" id="autotoc_md16"></a>
+</pre> <h2><a class="anchor" id="autotoc_md22"></a>
 LoadResources()</h2>
 <p>We'll skip adding anything to <a class="el" href="class_engine_settings.html#ad087e863ab33f251ce8294d69b03e591" title="Loads the resources necessary for the game. Called automatically by Ketchup when Run() is called,...">EngineSettings::LoadResources</a>, but we'll come back to it in <a class="el" href="tut_load.html">a future tutorial.</a></p>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 InitGame()</h2>
-<p>In our implementation of <a class="el" href="class_engine_settings.html#af2ea6121fc2330e2de9ba7ebac02f81a" title="Initializes the game. Called automatically by Ketchup when Run() is called. To be overridden by user.">EngineSettings::InitGame()</a>, we'll set some settings that <a class="el" href="class_ketchup.html">Ketchup</a> will use to set up its window. </p><pre class="fragment">void GameSettings::InitGame() {
+<p>In our implementation of <a class="el" href="class_engine_settings.html#af2ea6121fc2330e2de9ba7ebac02f81a" title="Initializes the game. Called automatically by Ketchup when Run() is called. To be overridden by user.">EngineSettings::InitGame()</a>, we'll set some settings that <a class="el" href="class_ketchup.html">Ketchup</a> will use to set up its window. </p><pre class="fragment">void TutorialGameSettings::InitGame() {
     SetWindowName("Ketchup Engine Demo");
     SetWidthHeight(1280, 720);
     SetVsync(0);
     SetClearColor(0.4f, 0.4f, 0.8f, 1.0f);
 }
 </pre><p> This method will be automatically be called by <a class="el" href="class_ketchup.html">Ketchup</a> before starting up the game.</p>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 EndGame()</h2>
 <p><a class="el" href="class_engine_settings.html#a942f2cab9514042fe31bac71aa5fda58" title="Cleans up the game after running. Called automatically by Ketchup at the end of the game....">EngineSettings::EndGame()</a> will be empty for now, but we can use it to clean up after the game runs. <a class="el" href="class_ketchup.html">Ketchup</a> will also automatically call this method at the end of our game's runtime.</p>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md25"></a>
 Attaching to Ketchup</h2>
-<p>We need to attach an instance of our class to <a class="el" href="class_ketchup.html">Ketchup</a> for the engine to know the behavior we defined. We'll go over how to do this in the next tutorial where we set up main.</p>
+<p>We need to attach an instance of our class to <a class="el" href="class_ketchup.html">Ketchup</a> for the engine to use the behavior we defined. We'll go over how to do this in the next tutorial where we set up main.</p>
 <ul>
 <li><a class="el" href="tut_main.html">next: Setting up our Main Entrypoint</a></li>
 <li><a class="el" href="getting_started.html">Return to Getting Started</a> </li>
