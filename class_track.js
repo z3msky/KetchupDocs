@@ -2,9 +2,13 @@ var class_track =
 [
     [ "TrackPoint", "struct_track_1_1_track_point.html", "struct_track_1_1_track_point" ],
     [ "PathData", "class_track.html#af30c4b4f879dc5f70f75c9de89ec96b9", null ],
+    [ "TrackID", "class_track.html#a4a47e348fdb5b009c1f023d69bea4b72", [
+      [ "SIMULATOR_1", "class_track.html#a4a47e348fdb5b009c1f023d69bea4b72a9cff9dbbfc551be4c5edbd17d0b135c1", null ]
+    ] ],
     [ "Track", "class_track.html#a11457bcda8be04595018c11173d8241c", null ],
     [ "Track", "class_track.html#a70e52323a32d31ef43ec341e64ab0a2b", null ],
     [ "~Track", "class_track.html#a416e75e66accc8eb9e3fafc3e8555216", null ],
+    [ "BuildTrack", "class_track.html#ac52fcfa0e601862521da8030ea7b5226", null ],
     [ "Draw", "class_track.html#ac524830d41551b702d1518954c564cf8", null ],
     [ "EnterScene", "class_track.html#a242dfea83224cb015ba6c42e4f9d24df", null ],
     [ "ExitScene", "class_track.html#ac73815bd14d54b5cfb696fd4d433c340", null ],

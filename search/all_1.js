@@ -12,5 +12,6 @@ var searchData=
   ['bsphere_2eh_9',['BSphere.h',['../_b_sphere_8h.html',1,'']]],
   ['bspherecommandlist_10',['BSphereCommandList',['../class_visualizer_command_factory.html#a6bed19f6099d244c3e677ba2b2c64519',1,'VisualizerCommandFactory']]],
   ['buildmodel_11',['BuildModel',['../class_skybox.html#a1b1276a9beb203089a5326371a385c0a',1,'Skybox']]],
-  ['burlywood_12',['BurlyWood',['../namespace_colors.html#a57f5c9f1465da269ae462a6ff517479d',1,'Colors']]]
+  ['buildtrack_12',['BuildTrack',['../class_track.html#ac52fcfa0e601862521da8030ea7b5226',1,'Track']]],
+  ['burlywood_13',['BurlyWood',['../namespace_colors.html#a57f5c9f1465da269ae462a6ff517479d',1,'Colors']]]
 ];
