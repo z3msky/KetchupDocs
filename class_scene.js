@@ -22,6 +22,7 @@ var class_scene =
     [ "SetCollisionPair", "class_scene.html#a7257d595b38462d1764a6c4e260b47f7", null ],
     [ "SetCollisionSelf", "class_scene.html#af198d5dc3e3a472f32ef71100517323b", null ],
     [ "SubmitCommand", "class_scene.html#a38283003afe7ab0ab20ee02318c03858", null ],
+    [ "TopOfFrame", "class_scene.html#abac7fcbdde02837c2d01b57dd3f502ad", null ],
     [ "Update", "class_scene.html#a71a71b4f7752b853ff8032b0941a9d8d", null ],
     [ "SceneAttorney", "class_scene.html#a16e0e075d75997e866c3dc71a56c0d16", null ],
     [ "AlarmMgr", "class_scene.html#afae4e8e84f303e7c4dade610d0c9be2c", null ],

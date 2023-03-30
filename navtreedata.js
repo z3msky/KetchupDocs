@@ -65,8 +65,8 @@ var NAVTREEINDEX =
 "class_collidable.html#add19f3dbe5cad788986e652252251678",
 "class_game_object.html#a3ccd492246caf47f5716d47fde0bcb70",
 "class_model_manager.html#af799cdd77bda156a36be028d93d0ee0d",
-"class_sprite_font.html#af08703831de8fed6888a0a411d4df3f3",
-"functions_g.html"
+"class_sprite_font.html#ae67ec68b7c169f0279e06d8905b34c33",
+"functions_func_~.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"class_sprite_font.html#ae67ec68b7c169f0279e06d8905b34c33":[3,0,69,10],
 "class_sprite_font.html#af08703831de8fed6888a0a411d4df3f3":[3,0,69,3],
 "class_sprite_font.html#af756826bcfc2ecbdbbbe83e765469f59":[3,0,69,13],
 "class_sprite_string.html":[3,0,70],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "functions_func_u.html":[3,3,1,18],
 "functions_func_v.html":[3,3,1,19],
 "functions_func_w.html":[3,3,1,20],
-"functions_func_x.html":[3,3,1,21],
-"functions_func_~.html":[3,3,1,22]
+"functions_func_x.html":[3,3,1,21]
 };

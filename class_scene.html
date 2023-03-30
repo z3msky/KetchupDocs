@@ -106,8 +106,8 @@ Inheritance diagram for Scene:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scene__inherit__graph.png" border="0" usemap="#a_scene_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_scene_inherit__map" id="a_scene_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,5,216,596"/>
-<area shape="rect" href="class_null_scene.html" title=" " alt="" coords="15,644,207,839"/>
+<area shape="rect" title=" " alt="" coords="5,5,216,493"/>
+<area shape="rect" href="class_null_scene.html" title=" " alt="" coords="15,541,207,736"/>
 </map>
 </div>
 <div class="dynheader">
@@ -115,7 +115,7 @@ Collaboration diagram for Scene:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scene__coll__graph.png" border="0" usemap="#a_scene_coll__map" alt="Collaboration graph"/></div>
 <map name="a_scene_coll__map" id="a_scene_coll__map">
-<area shape="rect" title=" " alt="" coords="1073,4755,1283,5243"/>
+<area shape="rect" title=" " alt="" coords="1073,4755,1283,5140"/>
 <area shape="rect" href="class_registration_broker.html" title=" " alt="" coords="227,1572,438,1825"/>
 <area shape="rect" title=" " alt="" coords="435,703,617,795"/>
 <area shape="rect" href="class_scene_registration_command.html" title=" " alt="" coords="1310,285,1550,479"/>
@@ -197,6 +197,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:adbdd60acb6fcf28614d6b96262cb15a5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#adbdd60acb6fcf28614d6b96262cb15a5">End</a> ()</td></tr>
 <tr class="memdesc:adbdd60acb6fcf28614d6b96262cb15a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ends this scene. Called by the <a class="el" href="class_scene_manager.html">SceneManager</a> when cleaning up the <a class="el" href="class_scene.html">Scene</a>. To be overridden by the user.  <br /></td></tr>
 <tr class="separator:adbdd60acb6fcf28614d6b96262cb15a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abac7fcbdde02837c2d01b57dd3f502ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#abac7fcbdde02837c2d01b57dd3f502ad">TopOfFrame</a> ()</td></tr>
+<tr class="memdesc:abac7fcbdde02837c2d01b57dd3f502ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Excecuted at top of frame, after registration commands are processed, but before any <a class="el" href="class_alarm.html">Alarm</a>, <a class="el" href="class_inputable.html">Inputable</a>, or <a class="el" href="class_game_object.html">GameObject</a> are updated. Does nothing by default. To be optionally overridden by user.  <br /></td></tr>
+<tr class="separator:abac7fcbdde02837c2d01b57dd3f502ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71a71b4f7752b853ff8032b0941a9d8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a71a71b4f7752b853ff8032b0941a9d8d">Update</a> ()</td></tr>
 <tr class="separator:a71a71b4f7752b853ff8032b0941a9d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4813338ee7c6c995f5bb6f10e3673804"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a4813338ee7c6c995f5bb6f10e3673804">Draw</a> ()</td></tr>
@@ -865,6 +868,34 @@ template&lt;typename C1 &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abac7fcbdde02837c2d01b57dd3f502ad" name="abac7fcbdde02837c2d01b57dd3f502ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abac7fcbdde02837c2d01b57dd3f502ad">&#9670;&#160;</a></span>TopOfFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Scene::TopOfFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Excecuted at top of frame, after registration commands are processed, but before any <a class="el" href="class_alarm.html">Alarm</a>, <a class="el" href="class_inputable.html">Inputable</a>, or <a class="el" href="class_game_object.html">GameObject</a> are updated. Does nothing by default. To be optionally overridden by user. </p>
+<p>Haru, 3/27/2023. </p>
 
 </div>
 </div>
