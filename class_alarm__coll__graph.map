@@ -1,7 +1,0 @@
-<map id="Alarm" name="Alarm">
-<area shape="rect" id="node1" title=" " alt="" coords="75,220,293,723"/>
-<area shape="rect" id="node3" href="$class_alarm_registration_command.html" title=" " alt="" coords="277,785,515,1053"/>
-<area shape="rect" id="node5" href="$class_alarm_deregistration_command.html" title=" " alt="" coords="5,793,253,1046"/>
-<area shape="rect" id="node2" href="$class_command.html" title=" " alt="" coords="213,5,405,171"/>
-<area shape="rect" id="node4" href="$class_scene_registration_command.html" title=" " alt="" coords="317,374,557,569"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="SpriteFont" name="SpriteFont">
-<area shape="rect" id="node1" title=" " alt="" coords="60,711,240,993"/>
-<area shape="rect" id="node2" title=" " alt="" coords="37,571,117,648"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,211,132,303"/>
-<area shape="rect" id="node4" title=" " alt="" coords="154,571,325,648"/>
-<area shape="rect" id="node5" href="$class_k_sprite.html" title=" " alt="" coords="157,5,335,508"/>
-</map>

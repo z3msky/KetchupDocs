@@ -1,8 +1,0 @@
-<map id="SpriteString" name="SpriteString">
-<area shape="rect" id="node1" title=" " alt="" coords="101,1056,267,1515"/>
-<area shape="rect" id="node2" title=" " alt="" coords="279,571,359,648"/>
-<area shape="rect" id="node5" href="$class_sprite_font.html" title=" " alt="" coords="94,711,274,993"/>
-<area shape="rect" id="node3" title=" " alt="" coords="255,211,382,303"/>
-<area shape="rect" id="node4" href="$class_k_sprite.html" title=" " alt="" coords="5,5,184,508"/>
-<area shape="rect" id="node6" title=" " alt="" coords="81,571,252,648"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Drawable" name="Drawable">
-<area shape="rect" id="node1" title=" " alt="" coords="85,220,275,576"/>
-<area shape="rect" id="node2" href="$class_draw_registration_command.html" title=" " alt="" coords="272,639,504,892"/>
-<area shape="rect" id="node5" href="$class_draw_deregistration_command.html" title=" " alt="" coords="5,639,248,892"/>
-<area shape="rect" id="node3" href="$class_scene_registration_command.html" title=" " alt="" coords="312,301,552,495"/>
-<area shape="rect" id="node4" href="$class_command.html" title=" " alt="" coords="336,5,528,171"/>
-</map>

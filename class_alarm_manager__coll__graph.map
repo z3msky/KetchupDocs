@@ -1,9 +1,0 @@
-<map id="AlarmManager" name="AlarmManager">
-<area shape="rect" id="node1" title=" " alt="" coords="5,1116,188,1355"/>
-<area shape="rect" id="node2" title=" " alt="" coords="26,873,167,965"/>
-<area shape="rect" id="node3" href="$class_alarm.html" title=" " alt="" coords="212,220,429,723"/>
-<area shape="rect" id="node5" href="$class_alarm_registration_command.html" title=" " alt="" coords="463,785,701,1053"/>
-<area shape="rect" id="node7" href="$class_alarm_deregistration_command.html" title=" " alt="" coords="191,793,439,1046"/>
-<area shape="rect" id="node4" href="$class_command.html" title=" " alt="" coords="350,5,542,171"/>
-<area shape="rect" id="node6" href="$class_scene_registration_command.html" title=" " alt="" coords="459,374,699,569"/>
-</map>
