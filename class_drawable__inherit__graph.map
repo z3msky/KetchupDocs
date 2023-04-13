@@ -1,0 +1,6 @@
+<map id="Drawable" name="Drawable">
+<area shape="rect" id="node1" title=" " alt="" coords="127,5,325,420"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title=" " alt="" coords="111,468,341,795"/>
+<area shape="rect" id="node3" href="$class_screen_log.html" title=" " alt="" coords="5,843,215,1257"/>
+<area shape="rect" id="node4" href="$class_song_player.html" title=" " alt="" coords="239,850,447,1250"/>
+</map>

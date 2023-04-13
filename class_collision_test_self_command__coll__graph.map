@@ -1,0 +1,13 @@
+<map id="CollisionTestSelfCommand" name="CollisionTestSelfCommand">
+<area shape="rect" id="node1" title=" " alt="" coords="279,2361,496,2629"/>
+<area shape="rect" id="node2" href="$class_collision_test_command.html" title=" " alt="" coords="5,439,225,633"/>
+<area shape="rect" id="node3" href="$class_command.html" title=" " alt="" coords="35,5,227,171"/>
+<area shape="rect" id="node8" href="$class_scene_registration_command.html" title=" " alt="" coords="153,220,393,415"/>
+<area shape="rect" id="node4" href="$class_collidable_group.html" title=" " alt="" coords="284,1987,491,2299"/>
+<area shape="rect" id="node5" title=" " alt="" coords="441,1759,595,1836"/>
+<area shape="rect" id="node6" href="$class_collidable.html" title=" " alt="" coords="329,1091,520,1608"/>
+<area shape="rect" id="node7" href="$class_collision_registration_command.html" title=" " alt="" coords="297,716,549,969"/>
+<area shape="rect" id="node9" href="$class_collision_deregistration_command.html" title=" " alt="" coords="153,1671,416,1924"/>
+<area shape="rect" id="node10" href="$class_collision_volume.html" title=" " alt="" coords="573,657,793,1028"/>
+<area shape="rect" id="node11" href="$class_collision_dispatcher_base.html" title=" " alt="" coords="515,2023,726,2262"/>
+</map>

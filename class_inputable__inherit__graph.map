@@ -1,0 +1,6 @@
+<map id="Inputable" name="Inputable">
+<area shape="rect" id="node1" title=" " alt="" coords="121,5,331,655"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title=" " alt="" coords="111,703,341,1029"/>
+<area shape="rect" id="node3" href="$class_screen_log.html" title=" " alt="" coords="5,1077,215,1492"/>
+<area shape="rect" id="node4" href="$class_song_player.html" title=" " alt="" coords="239,1085,447,1485"/>
+</map>

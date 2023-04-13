@@ -1,0 +1,6 @@
+<map id="Collidable" name="Collidable">
+<area shape="rect" id="node1" title=" " alt="" coords="117,5,335,611"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title=" " alt="" coords="111,659,341,985"/>
+<area shape="rect" id="node3" href="$class_screen_log.html" title=" " alt="" coords="5,1033,215,1448"/>
+<area shape="rect" id="node4" href="$class_song_player.html" title=" " alt="" coords="239,1041,447,1441"/>
+</map>

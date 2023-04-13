@@ -1,0 +1,11 @@
+<map id="Inputable::RegistrationData" name="Inputable::RegistrationData">
+<area shape="rect" id="node1" title=" " alt="" coords="611,5,790,127"/>
+<area shape="rect" id="node6" title=" " alt="" coords="615,226,786,318"/>
+<area shape="rect" id="node2" href="$class_input_registration_command.html" title=" " alt="" coords="152,1129,382,1397"/>
+<area shape="rect" id="node3" href="$class_scene_registration_command.html" title=" " alt="" coords="102,645,342,839"/>
+<area shape="rect" id="node9" href="$class_input_deregistration_command.html" title=" " alt="" coords="426,1129,668,1397"/>
+<area shape="rect" id="node4" href="$class_command.html" title=" " alt="" coords="126,189,318,355"/>
+<area shape="rect" id="node5" href="$class_inputable.html" title=" " alt="" coords="595,417,806,1067"/>
+<area shape="rect" id="node7" href="$class_input_key.html" title=" " alt="" coords="366,593,570,891"/>
+<area shape="rect" id="node8" href="$union_input_key_1_1_key_data.html" title=" " alt="" coords="386,226,550,318"/>
+</map>

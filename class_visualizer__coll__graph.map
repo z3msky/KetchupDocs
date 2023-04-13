@@ -1,0 +1,16 @@
+<map id="Visualizer" name="Visualizer">
+<area shape="rect" id="node1" title=" " alt="" coords="7,1855,256,2607"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,1136,220,1213"/>
+<area shape="rect" id="node3" href="$class_visualizer_command.html" title=" " alt="" coords="220,572,379,679"/>
+<area shape="rect" id="node7" href="$class_show_b_sphere_command.html" title=" " alt="" coords="398,888,614,1112"/>
+<area shape="rect" id="node11" href="$class_show_a_a_b_b_command.html" title=" " alt="" coords="639,895,864,1105"/>
+<area shape="rect" id="node14" href="$class_show_point_command.html" title=" " alt="" coords="163,888,369,1112"/>
+<area shape="rect" id="node4" href="$class_command.html" title=" " alt="" coords="203,108,395,273"/>
+<area shape="rect" id="node5" href="$class_visualizer_command_factory.html" title=" " alt="" coords="206,1392,465,1792"/>
+<area shape="rect" id="node6" title=" " alt="" coords="391,1237,629,1315"/>
+<area shape="rect" id="node8" href="$class_b_sphere.html" title=" " alt="" coords="424,425,604,825"/>
+<area shape="rect" id="node9" href="$class_collision_volume.html" title=" " alt="" coords="516,5,736,376"/>
+<area shape="rect" id="node12" href="$class_a_a_b_b.html" title=" " alt="" coords="649,425,827,825"/>
+<area shape="rect" id="node10" title=" " alt="" coords="653,1237,879,1315"/>
+<area shape="rect" id="node13" title=" " alt="" coords="147,1237,366,1315"/>
+</map>

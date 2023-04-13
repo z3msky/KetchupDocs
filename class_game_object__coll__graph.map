@@ -1,0 +1,24 @@
+<map id="GameObject" name="GameObject">
+<area shape="rect" id="node1" title=" " alt="" coords="871,2635,1091,2903"/>
+<area shape="rect" id="node21" href="$class_game_object_registration_command.html" title=" " alt="" coords="975,2980,1251,3233"/>
+<area shape="rect" id="node22" href="$class_game_object_deregistration_command.html" title=" " alt="" coords="675,2965,950,3248"/>
+<area shape="rect" id="node2" href="$class_updatable.html" title=" " alt="" coords="211,1115,401,1456"/>
+<area shape="rect" id="node3" href="$class_update_registration_command.html" title=" " alt="" coords="101,652,345,905"/>
+<area shape="rect" id="node6" href="$class_update_deregistration_command.html" title=" " alt="" coords="67,1607,321,1860"/>
+<area shape="rect" id="node4" href="$class_scene_registration_command.html" title=" " alt="" coords="822,285,1062,479"/>
+<area shape="rect" id="node8" href="$class_draw_registration_command.html" title=" " alt="" coords="941,652,1173,905"/>
+<area shape="rect" id="node9" href="$class_draw_deregistration_command.html" title=" " alt="" coords="897,1607,1139,1860"/>
+<area shape="rect" id="node13" href="$class_input_registration_command.html" title=" " alt="" coords="1305,645,1536,913"/>
+<area shape="rect" id="node16" href="$class_input_deregistration_command.html" title=" " alt="" coords="1487,2635,1730,2903"/>
+<area shape="rect" id="node18" href="$class_collision_registration_command.html" title=" " alt="" coords="369,652,621,905"/>
+<area shape="rect" id="node19" href="$class_collision_deregistration_command.html" title=" " alt="" coords="559,1607,821,1860"/>
+<area shape="rect" id="node5" href="$class_command.html" title=" " alt="" coords="846,5,1038,171"/>
+<area shape="rect" id="node7" href="$class_drawable.html" title=" " alt="" coords="980,1107,1171,1463"/>
+<area shape="rect" id="node10" href="$class_inputable.html" title=" " alt="" coords="1303,1923,1514,2572"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1349,1687,1519,1779"/>
+<area shape="rect" id="node12" href="$struct_inputable_1_1_registration_data.html" title=" " alt="" coords="1349,1225,1527,1346"/>
+<area shape="rect" id="node14" href="$class_input_key.html" title=" " alt="" coords="1637,233,1841,531"/>
+<area shape="rect" id="node15" href="$union_input_key_1_1_key_data.html" title=" " alt="" coords="1657,42,1821,134"/>
+<area shape="rect" id="node17" href="$class_collidable.html" title=" " alt="" coords="595,1027,785,1544"/>
+<area shape="rect" id="node20" href="$class_collision_volume.html" title=" " alt="" coords="645,593,865,964"/>
+</map>

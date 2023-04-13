@@ -1,0 +1,14 @@
+<map id="CollisionManager" name="CollisionManager">
+<area shape="rect" id="node1" title=" " alt="" coords="359,1927,566,2283"/>
+<area shape="rect" id="node2" title=" " alt="" coords="287,1787,494,1864"/>
+<area shape="rect" id="node3" href="$class_collidable_group.html" title=" " alt="" coords="277,1412,483,1724"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,1107,160,1184"/>
+<area shape="rect" id="node5" href="$class_collidable.html" title=" " alt="" coords="210,439,401,956"/>
+<area shape="rect" id="node6" href="$class_collision_registration_command.html" title=" " alt="" coords="471,1019,723,1272"/>
+<area shape="rect" id="node9" href="$class_collision_deregistration_command.html" title=" " alt="" coords="185,1019,447,1272"/>
+<area shape="rect" id="node7" href="$class_scene_registration_command.html" title=" " alt="" coords="453,600,693,795"/>
+<area shape="rect" id="node8" href="$class_command.html" title=" " alt="" coords="604,108,796,273"/>
+<area shape="rect" id="node12" href="$class_collision_test_command.html" title=" " alt="" coords="718,600,938,795"/>
+<area shape="rect" id="node10" href="$class_collision_volume.html" title=" " alt="" coords="195,5,415,376"/>
+<area shape="rect" id="node11" title=" " alt="" coords="602,1296,753,1388"/>
+</map>
