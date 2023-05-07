@@ -1,0 +1,10 @@
+<map id="GameObject" name="GameObject">
+<area shape="rect" id="node1" title=" " alt="" coords="339,703,570,1029"/>
+<area shape="rect" id="node6" href="$class_screen_log.html" title=" " alt="" coords="117,1173,326,1587"/>
+<area shape="rect" id="node7" href="$class_song_player.html" title=" " alt="" coords="351,1180,559,1580"/>
+<area shape="rect" id="node8" href="$class_terrain.html" title=" " alt="" coords="583,1077,787,1683"/>
+<area shape="rect" id="node2" href="$class_updatable.html" title=" " alt="" coords="5,130,216,530"/>
+<area shape="rect" id="node3" href="$class_drawable.html" title=" " alt="" coords="241,123,439,537"/>
+<area shape="rect" id="node4" href="$class_inputable.html" title=" " alt="" coords="464,5,675,655"/>
+<area shape="rect" id="node5" href="$class_collidable.html" title=" " alt="" coords="699,5,917,655"/>
+</map>

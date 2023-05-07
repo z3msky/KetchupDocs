@@ -1,0 +1,8 @@
+<map id="ScreenLog" name="ScreenLog">
+<area shape="rect" id="node1" title=" " alt="" coords="350,1077,559,1492"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title=" " alt="" coords="339,703,570,1029"/>
+<area shape="rect" id="node3" href="$class_updatable.html" title=" " alt="" coords="5,130,216,530"/>
+<area shape="rect" id="node4" href="$class_drawable.html" title=" " alt="" coords="241,123,439,537"/>
+<area shape="rect" id="node5" href="$class_inputable.html" title=" " alt="" coords="464,5,675,655"/>
+<area shape="rect" id="node6" href="$class_collidable.html" title=" " alt="" coords="699,5,917,655"/>
+</map>

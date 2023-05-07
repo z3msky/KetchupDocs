@@ -1,0 +1,11 @@
+<map id="CollidableGroup" name="CollidableGroup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1887,212,2199"/>
+<area shape="rect" id="node2" title=" " alt="" coords="31,1659,186,1736"/>
+<area shape="rect" id="node3" href="$class_collidable.html" title=" " alt="" coords="238,961,446,1508"/>
+<area shape="rect" id="node4" href="$class_collision_registration_command.html" title=" " alt="" coords="497,1571,749,1824"/>
+<area shape="rect" id="node7" href="$class_collision_deregistration_command.html" title=" " alt="" coords="211,1571,473,1824"/>
+<area shape="rect" id="node5" href="$class_scene_registration_command.html" title=" " alt="" coords="506,1137,746,1332"/>
+<area shape="rect" id="node6" href="$class_command.html" title=" " alt="" coords="530,594,722,759"/>
+<area shape="rect" id="node8" href="$class_b_sphere.html" title=" " alt="" coords="297,455,477,899"/>
+<area shape="rect" id="node9" href="$class_collision_volume.html" title=" " alt="" coords="120,5,340,405"/>
+</map>
